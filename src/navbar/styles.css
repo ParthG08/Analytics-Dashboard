@@ -95,3 +95,60 @@
     border-radius: 5px;
   }
 
+  .checkbox-handler{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  form input{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+
+  form button{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+
+  .btn{
+    padding: 0.2rem;
+    font-weight: 600;
+  }
+
+  .heading{
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+
+  .dropdown-check-list{
+    padding: 10rem;
+    margin-left: 6rem;
+    font-size: larger;
+    font-weight: 700;
+
+  }
+
+  .items{
+    z-index: 2;
+    position: absolute;
+    font-weight: 500;
+    width: 20rem;
+    background-color: grey;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+  }
+
